@@ -1,2 +1,5 @@
 # s3demo
- S3 Demo Application
+ Nutanix S3 demo application
+
+How to use:
+In Progress

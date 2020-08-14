@@ -1,0 +1,127 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+
+.navbar {
+  background: #f5f8fb;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link,
+.navbar-brand {
+  margin: 0 10px;
+  color: #333;
+  font-size: 20px !important;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand:img {
+  height: 10px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.nav a {
+  color: blue;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  height: calc(100vh - 4rem);
+  background-image: url("https://www.nutanix.com/content/dam/nutanix/global/background/bg-next-2020-blue.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  font-family: Helvetica, Arial, sans-serif;
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description form {
+  background: #024da0 !important;
+  color: #fff;
+  padding: 0.1em;
+  border-radius: 5px !important;
+  letter-spacing: 0.025em;
+  vertical-align: middle;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.04);
+}
+
+.input {
+  color: #fff;
+  text-align: justify;
+  vertical-align: middle;
+
+  border: 1px solid transparent;
+  margin: 1em auto;
+
+  position: relative;
+}
+
+.submit-btn {
+  color: #fff;
+  display: block;
+  background-color: #afd135;
+  border-radius: 3px;
+  letter-spacing: 0.025em;
+  padding: 0.2em;
+  width: 100%;
+  font-weight: 700;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  border: 1px solid transparent;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.description h1 {
+  color: #fff;
+}
+
+.description p {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
