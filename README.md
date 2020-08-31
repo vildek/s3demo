@@ -8,7 +8,7 @@ Before we can deploy demo application in Nutanix Karbon Kubernetes cluster, we n
 
 First, let’s create a private Docker Registry (https://docs.docker.com/registry/) by launching “Docker Registry” blueprint from Nutanix Calm self-service portal:
 
-!1(https://media-exp1.licdn.com/dms/image/C4D12AQHjf2aKGzuVpQ/article-inline_image-shrink_1500_2232/0?e=1604534400&v=beta&t=sa8XKzjrEYzfgbB3T7yvVrXmYvQWb-wsVzE-X_03eJM)
+![1](https://media-exp1.licdn.com/dms/image/C4D12AQHjf2aKGzuVpQ/article-inline_image-shrink_1500_2232/0?e=1604534400&v=beta&t=sa8XKzjrEYzfgbB3T7yvVrXmYvQWb-wsVzE-X_03eJM)
 
 Provide resource name, necessary parameters for generating self-signed TLS certificate and Docker Registry admin password. Press Create. Nutanix will create a new CentOS virtual machine and deploy a Docker Registry on it.
 
